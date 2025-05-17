@@ -1,6 +1,12 @@
 name: Hola Mundo
 
-on: [push, pull_request]
+on: #[push, pull_request] --Estos eventos se ejecutan en cada push o pull request
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
     hola: 
