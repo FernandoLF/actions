@@ -1,0 +1,23 @@
+key: Hola
+
+person:
+  name: John Doe
+  age: 30
+  city: New York
+  hobbies:
+    - reading
+    - hiking
+    - coding
+  address:
+    street: 123 Main St
+    city: Springfield
+    state: IL
+    zip: '62701'
+  is_student: false
+  courses:
+    - name: Math 101
+      grade: A
+    - name: History 201
+      grade: B+
+
+  
