@@ -8,4 +8,3 @@ runs:
   steps:
     - name: Saludo
       run: echo "Hola Mundo"
-      shell: bash
