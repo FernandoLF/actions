@@ -11,4 +11,6 @@ jobs:
 
         steps:
           - name: Test
-            run: echo "Hola Mundo  ${{ vars.MY_VARIABLE2 }}"
+            env:
+              STEP_MY_VAR: Hola estoy en el paso
+            run: echo "Hola Mundo " $MY_VAR $STEP_MY_VAR
