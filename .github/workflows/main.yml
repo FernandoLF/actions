@@ -12,3 +12,7 @@ jobs:
         steps:
           - name: Test
             run: echo "Hola Mundo  ${{ vars.MY_VARIABLE2 }}"
+
+            
+          - name: Secret
+            run: echo "Hola Mundo  ${{ secrets.MY_SECRET }}"
